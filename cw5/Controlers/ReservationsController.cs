@@ -4,6 +4,9 @@ using Microsoft.VisualBasic;
 
 namespace cw5.Controlers;
 
+
+[ApiController]
+[Route("api/[controller]")]
 public class ReservationsController : ControllerBase
 {
     

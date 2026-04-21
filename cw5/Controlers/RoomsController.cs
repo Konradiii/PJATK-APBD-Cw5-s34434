@@ -4,6 +4,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace cw5.Controlers;
 
+
+[ApiController]
+[Route("api/[controller]")]
 public class RoomsController : ControllerBase
 {
 
